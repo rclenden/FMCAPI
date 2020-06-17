@@ -1,0 +1,649 @@
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+DEBUG:root:Getting the authentication token.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_platform/v1/auth/generatetoken HTTP/1.1" 204 0
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+DEBUG:root:Getting the authentication token.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_platform/v1/auth/generatetoken HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks?offset=25&limit=2 HTTP/1.1" 200 None
+INFO:root:GET successful.
+INFO:root:Posting the objects.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses?offset=25&limit=18 HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:root:Posting: {"name": "MyGroupA", "type": "NetworkGroup", "literals": [{"type": "Host", "value": "10.2.3.4"}, {"type": "Network", "value": "10.3.4.0/24"}, {"type": "Host", "value": "10.3.5.7"}, {"type": "Network", "value": "10.4.6.0/24"}], "objects": [{"id": "005056A4-5126-0ed3-0000-034359738947", "type": "Host"}]}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_platform/v1/auth/generatetoken HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 400 None
+INFO:root:Status code is: 400
+ERROR:root:Error in connection: 400 Client Error: Bad Request for url: https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups
+DEBUG:root:Posting: {"name": "MyGroupB", "type": "NetworkGroup", "literals": [{"type": "Host", "value": "172.20.1.3"}, {"type": "Network", "value": "172.20.30.0/24"}], "objects": [{"id": "005056A4-5126-0ed3-0000-034359738947", "type": "Host"}, {"id": "cb7116e8-66a6-480b-8f9b-295191a0940a", "type": "Network"}]}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_platform/v1/auth/generatetoken HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 400 None
+INFO:root:Status code is: 400
+ERROR:root:Error in connection: 400 Client Error: Bad Request for url: https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups
+INFO:root:Finished execution.
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+DEBUG:root:Getting the authentication token.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_platform/v1/auth/generatetoken HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses?offset=25&limit=18 HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:root:Posting: {"name": "MyGroupA", "type": "NetworkGroup", "literals": [{"type": "Host", "value": "10.2.3.4"}, {"type": "Network", "value": "10.3.4.0/24"}, {"type": "Host", "value": "10.3.5.7"}, {"type": "Network", "value": "10.4.6.0/24"}], "objects": [{"id": "005056A4-5126-0ed3-0000-034359738947", "type": "Host"}]}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 400 None
+INFO:root:Status code is: 400
+ERROR:root:Error in connection: 400 Client Error: Bad Request for url: https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups
+DEBUG:root:Posting: {"name": "MyGroupB", "type": "NetworkGroup", "literals": [{"type": "Host", "value": "172.20.1.3"}, {"type": "Network", "value": "172.20.30.0/24"}], "objects": [{"id": "005056A4-5126-0ed3-0000-034359738947", "type": "Host"}, {"id": "cb7116e8-66a6-480b-8f9b-295191a0940a", "type": "Network"}]}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 400 None
+INFO:root:Status code is: 400
+ERROR:root:Error in connection: 400 Client Error: Bad Request for url: https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+DEBUG:root:Getting the authentication token.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_platform/v1/auth/generatetoken HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses?offset=25&limit=18 HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:root:Posting: {"name": "MyGroupC", "type": "NetworkGroup", "literals": [{"type": "Host", "value": "10.2.3.4"}, {"type": "Network", "value": "10.3.4.0/24"}, {"type": "Host", "value": "10.3.5.7"}, {"type": "Network", "value": "10.4.6.0/24"}], "objects": [{"id": "005056A4-5126-0ed3-0000-034359738947", "type": "Host"}]}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 201 None
+INFO:root:Status code is: 201
+INFO:root:Post was successful...
+DEBUG:root:{
+    "id": "005056A4-5126-0ed3-0000-055834576281",
+    "links": {
+        "self": "https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups/005056A4-5126-0ed3-0000-055834576281"
+    },
+    "literals": [
+        {
+            "type": "Host",
+            "value": "10.2.3.4"
+        },
+        {
+            "type": "Network",
+            "value": "10.3.4.0/24"
+        },
+        {
+            "type": "Host",
+            "value": "10.3.5.7"
+        },
+        {
+            "type": "Network",
+            "value": "10.4.6.0/24"
+        }
+    ],
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global"
+        },
+        "lastUser": {
+            "name": "api"
+        },
+        "timestamp": 0
+    },
+    "name": "MyGroupC",
+    "objects": [
+        {
+            "id": "005056A4-5126-0ed3-0000-034359738947",
+            "name": "Gateway",
+            "type": "Host"
+        }
+    ],
+    "overridable": false,
+    "type": "NetworkGroup"
+}
+DEBUG:root:Posting: {"name": "MyGroupD", "type": "NetworkGroup", "literals": [{"type": "Host", "value": "172.20.1.3"}, {"type": "Network", "value": "172.20.30.0/24"}], "objects": [{"id": "005056A4-5126-0ed3-0000-034359738947", "type": "Host"}, {"id": "cb7116e8-66a6-480b-8f9b-295191a0940a", "type": "Network"}]}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 201 None
+INFO:root:Status code is: 201
+INFO:root:Post was successful...
+DEBUG:root:{
+    "id": "005056A4-5126-0ed3-0000-055834576299",
+    "links": {
+        "self": "https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups/005056A4-5126-0ed3-0000-055834576299"
+    },
+    "literals": [
+        {
+            "type": "Host",
+            "value": "172.20.1.3"
+        },
+        {
+            "type": "Network",
+            "value": "172.20.30.0/24"
+        }
+    ],
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global"
+        },
+        "lastUser": {
+            "name": "api"
+        },
+        "timestamp": 0
+    },
+    "name": "MyGroupD",
+    "objects": [
+        {
+            "id": "005056A4-5126-0ed3-0000-034359738947",
+            "name": "Gateway",
+            "type": "Host"
+        },
+        {
+            "id": "cb7116e8-66a6-480b-8f9b-295191a0940a",
+            "name": "any-ipv4",
+            "type": "Network"
+        }
+    ],
+    "overridable": false,
+    "type": "NetworkGroup"
+}
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+DEBUG:root:Getting the authentication token.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_platform/v1/auth/generatetoken HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses?offset=25&limit=18 HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:root:Posting: {"name": "MyGroupC", "type": "NetworkGroup", "literals": [{"type": "Host", "value": "10.2.3.4"}, {"type": "Network", "value": "10.3.4.0/24"}, {"type": "Host", "value": "10.3.5.7"}, {"type": "Network", "value": "10.4.6.0/24"}], "objects": [{"id": "005056A4-5126-0ed3-0000-034359738947", "type": "Host"}]}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 400 None
+INFO:root:Status code is: 400
+ERROR:root:Error in connection: 400 Client Error: Bad Request for url: https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups
+DEBUG:root:Posting: {"name": "MyGroupD", "type": "NetworkGroup", "literals": [{"type": "Host", "value": "172.20.1.3"}, {"type": "Network", "value": "172.20.30.0/24"}], "objects": [{"id": "005056A4-5126-0ed3-0000-034359738947", "type": "Host"}, {"id": "cb7116e8-66a6-480b-8f9b-295191a0940a", "type": "Network"}]}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 400 None
+INFO:root:Status code is: 400
+ERROR:root:Error in connection: 400 Client Error: Bad Request for url: https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+DEBUG:root:Getting the authentication token.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_platform/v1/auth/generatetoken HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses?offset=25&limit=18 HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:root:Posting: {"name": "MyGroupE", "type": "NetworkGroup", "literals": [{"type": "Host", "value": "10.2.3.4"}, {"type": "Network", "value": "10.3.4.0/24"}, {"type": "Host", "value": "10.3.5.7"}, {"type": "Network", "value": "10.4.6.0/24"}], "objects": [{"id": "005056A4-5126-0ed3-0000-034359738947", "type": "Host"}]}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 201 None
+INFO:root:Status code is: 201
+INFO:root:Post was successful...
+DEBUG:root:{
+    "id": "005056A4-5126-0ed3-0000-055834576337",
+    "links": {
+        "self": "https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups/005056A4-5126-0ed3-0000-055834576337"
+    },
+    "literals": [
+        {
+            "type": "Host",
+            "value": "10.2.3.4"
+        },
+        {
+            "type": "Network",
+            "value": "10.3.4.0/24"
+        },
+        {
+            "type": "Host",
+            "value": "10.3.5.7"
+        },
+        {
+            "type": "Network",
+            "value": "10.4.6.0/24"
+        }
+    ],
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global"
+        },
+        "lastUser": {
+            "name": "api"
+        },
+        "timestamp": 0
+    },
+    "name": "MyGroupE",
+    "objects": [
+        {
+            "id": "005056A4-5126-0ed3-0000-034359738947",
+            "name": "Gateway",
+            "type": "Host"
+        }
+    ],
+    "overridable": false,
+    "type": "NetworkGroup"
+}
+DEBUG:root:Posting: {"name": "MyGroupF", "type": "NetworkGroup", "literals": [{"type": "Host", "value": "172.20.1.3"}, {"type": "Network", "value": "172.20.30.0/24"}], "objects": [{"id": "005056A4-5126-0ed3-0000-034359738947", "type": "Host"}, {"id": "cb7116e8-66a6-480b-8f9b-295191a0940a", "type": "Network"}]}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 201 None
+INFO:root:Status code is: 201
+INFO:root:Post was successful...
+DEBUG:root:{
+    "id": "005056A4-5126-0ed3-0000-055834576355",
+    "links": {
+        "self": "https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups/005056A4-5126-0ed3-0000-055834576355"
+    },
+    "literals": [
+        {
+            "type": "Host",
+            "value": "172.20.1.3"
+        },
+        {
+            "type": "Network",
+            "value": "172.20.30.0/24"
+        }
+    ],
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global"
+        },
+        "lastUser": {
+            "name": "api"
+        },
+        "timestamp": 0
+    },
+    "name": "MyGroupF",
+    "objects": [
+        {
+            "id": "005056A4-5126-0ed3-0000-034359738947",
+            "name": "Gateway",
+            "type": "Host"
+        },
+        {
+            "id": "cb7116e8-66a6-480b-8f9b-295191a0940a",
+            "name": "any-ipv4",
+            "type": "Network"
+        }
+    ],
+    "overridable": false,
+    "type": "NetworkGroup"
+}
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+DEBUG:root:Getting the authentication token.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_platform/v1/auth/generatetoken HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses?offset=25&limit=18 HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:root:Posting: {"name": "MyGroupG", "type": "NetworkGroup", "literals": [{"type": "Host", "value": "10.2.3.4"}, {"type": "Network", "value": "10.3.4.0/24"}, {"type": "Host", "value": "10.3.5.7"}, {"type": "Network", "value": "10.4.6.0/24"}], "objects": [{"id": "005056A4-5126-0ed3-0000-034359738947", "type": "Host"}]}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 201 None
+INFO:root:Status code is: 201
+INFO:root:Post was successful...
+DEBUG:root:{
+    "id": "005056A4-5126-0ed3-0000-055834576375",
+    "links": {
+        "self": "https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups/005056A4-5126-0ed3-0000-055834576375"
+    },
+    "literals": [
+        {
+            "type": "Host",
+            "value": "10.2.3.4"
+        },
+        {
+            "type": "Network",
+            "value": "10.3.4.0/24"
+        },
+        {
+            "type": "Host",
+            "value": "10.3.5.7"
+        },
+        {
+            "type": "Network",
+            "value": "10.4.6.0/24"
+        }
+    ],
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global"
+        },
+        "lastUser": {
+            "name": "api"
+        },
+        "timestamp": 0
+    },
+    "name": "MyGroupG",
+    "objects": [
+        {
+            "id": "005056A4-5126-0ed3-0000-034359738947",
+            "name": "Gateway",
+            "type": "Host"
+        }
+    ],
+    "overridable": false,
+    "type": "NetworkGroup"
+}
+DEBUG:root:Posting: {"name": "MyGroupH", "type": "NetworkGroup", "literals": [{"type": "Host", "value": "172.20.1.3"}, {"type": "Network", "value": "172.20.30.0/24"}], "objects": [{"id": "005056A4-5126-0ed3-0000-034359738947", "type": "Host"}, {"id": "cb7116e8-66a6-480b-8f9b-295191a0940a", "type": "Network"}]}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 201 None
+INFO:root:Status code is: 201
+INFO:root:Post was successful...
+DEBUG:root:{
+    "id": "005056A4-5126-0ed3-0000-055834576393",
+    "links": {
+        "self": "https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups/005056A4-5126-0ed3-0000-055834576393"
+    },
+    "literals": [
+        {
+            "type": "Host",
+            "value": "172.20.1.3"
+        },
+        {
+            "type": "Network",
+            "value": "172.20.30.0/24"
+        }
+    ],
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global"
+        },
+        "lastUser": {
+            "name": "api"
+        },
+        "timestamp": 0
+    },
+    "name": "MyGroupH",
+    "objects": [
+        {
+            "id": "005056A4-5126-0ed3-0000-034359738947",
+            "name": "Gateway",
+            "type": "Host"
+        },
+        {
+            "id": "cb7116e8-66a6-480b-8f9b-295191a0940a",
+            "name": "any-ipv4",
+            "type": "Network"
+        }
+    ],
+    "overridable": false,
+    "type": "NetworkGroup"
+}
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+DEBUG:root:Getting the authentication token.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_platform/v1/auth/generatetoken HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses?offset=25&limit=18 HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:root:Posting: {"name": "MyGroupI", "type": "NetworkGroup", "literals": [{"type": "Host", "value": "10.2.3.4"}, {"type": "Network", "value": "10.3.4.0/24"}, {"type": "Host", "value": "10.3.5.7"}, {"type": "Network", "value": "10.4.6.0/24"}], "objects": [{"id": "005056A4-5126-0ed3-0000-034359738947", "type": "Host"}]}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 201 None
+INFO:root:Status code is: 201
+INFO:root:Post was successful...
+DEBUG:root:{
+    "id": "005056A4-5126-0ed3-0000-055834576413",
+    "links": {
+        "self": "https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups/005056A4-5126-0ed3-0000-055834576413"
+    },
+    "literals": [
+        {
+            "type": "Host",
+            "value": "10.2.3.4"
+        },
+        {
+            "type": "Network",
+            "value": "10.3.4.0/24"
+        },
+        {
+            "type": "Host",
+            "value": "10.3.5.7"
+        },
+        {
+            "type": "Network",
+            "value": "10.4.6.0/24"
+        }
+    ],
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global"
+        },
+        "lastUser": {
+            "name": "api"
+        },
+        "timestamp": 0
+    },
+    "name": "MyGroupI",
+    "objects": [
+        {
+            "id": "005056A4-5126-0ed3-0000-034359738947",
+            "name": "Gateway",
+            "type": "Host"
+        }
+    ],
+    "overridable": false,
+    "type": "NetworkGroup"
+}
+DEBUG:root:Posting: {"name": "MyGroupJ", "type": "NetworkGroup", "literals": [{"type": "Host", "value": "172.20.1.3"}, {"type": "Network", "value": "172.20.30.0/24"}], "objects": [{"id": "005056A4-5126-0ed3-0000-034359738947", "type": "Host"}, {"id": "cb7116e8-66a6-480b-8f9b-295191a0940a", "type": "Network"}]}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 201 None
+INFO:root:Status code is: 201
+INFO:root:Post was successful...
+DEBUG:root:{
+    "id": "005056A4-5126-0ed3-0000-055834576431",
+    "links": {
+        "self": "https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups/005056A4-5126-0ed3-0000-055834576431"
+    },
+    "literals": [
+        {
+            "type": "Host",
+            "value": "172.20.1.3"
+        },
+        {
+            "type": "Network",
+            "value": "172.20.30.0/24"
+        }
+    ],
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global"
+        },
+        "lastUser": {
+            "name": "api"
+        },
+        "timestamp": 0
+    },
+    "name": "MyGroupJ",
+    "objects": [
+        {
+            "id": "005056A4-5126-0ed3-0000-034359738947",
+            "name": "Gateway",
+            "type": "Host"
+        },
+        {
+            "id": "cb7116e8-66a6-480b-8f9b-295191a0940a",
+            "name": "any-ipv4",
+            "type": "Network"
+        }
+    ],
+    "overridable": false,
+    "type": "NetworkGroup"
+}
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+DEBUG:root:Getting the authentication token.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_platform/v1/auth/generatetoken HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses?offset=25&limit=18 HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 200 None
+INFO:root:GET successful.
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+DEBUG:root:Getting the authentication token.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_platform/v1/auth/generatetoken HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses?offset=25&limit=18 HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "GET /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 200 None
+INFO:root:GET successful.
+DEBUG:root:Posting: {"name": "MyGroupO", "type": "NetworkGroup", "literals": [{"type": "Host", "value": "10.2.3.4"}, {"type": "Network", "value": "10.3.4.0/24"}, {"type": "Host", "value": "10.3.5.7"}, {"type": "Network", "value": "10.4.6.0/24"}], "objects": [{"id": "005056A4-5126-0ed3-0000-034359738947", "type": "Host"}]}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 201 None
+INFO:root:Status code is: 201
+INFO:root:Post was successful...
+DEBUG:root:{
+    "id": "005056A4-5126-0ed3-0000-055834576565",
+    "links": {
+        "self": "https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups/005056A4-5126-0ed3-0000-055834576565"
+    },
+    "literals": [
+        {
+            "type": "Host",
+            "value": "10.2.3.4"
+        },
+        {
+            "type": "Network",
+            "value": "10.3.4.0/24"
+        },
+        {
+            "type": "Host",
+            "value": "10.3.5.7"
+        },
+        {
+            "type": "Network",
+            "value": "10.4.6.0/24"
+        }
+    ],
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global"
+        },
+        "lastUser": {
+            "name": "api"
+        },
+        "timestamp": 0
+    },
+    "name": "MyGroupO",
+    "objects": [
+        {
+            "id": "005056A4-5126-0ed3-0000-034359738947",
+            "name": "Gateway",
+            "type": "Host"
+        }
+    ],
+    "overridable": false,
+    "type": "NetworkGroup"
+}
+DEBUG:root:Posting: {"name": "MyGroupP", "type": "NetworkGroup", "literals": [{"type": "Host", "value": "172.20.1.3"}, {"type": "Network", "value": "172.20.30.0/24"}], "objects": [{"id": "005056A4-5126-0ed3-0000-034359738947", "type": "Host"}, {"id": "cb7116e8-66a6-480b-8f9b-295191a0940a", "type": "Network"}]}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups HTTP/1.1" 201 None
+INFO:root:Status code is: 201
+INFO:root:Post was successful...
+DEBUG:root:{
+    "id": "005056A4-5126-0ed3-0000-055834576583",
+    "links": {
+        "self": "https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups/005056A4-5126-0ed3-0000-055834576583"
+    },
+    "literals": [
+        {
+            "type": "Host",
+            "value": "172.20.1.3"
+        },
+        {
+            "type": "Network",
+            "value": "172.20.30.0/24"
+        }
+    ],
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global"
+        },
+        "lastUser": {
+            "name": "api"
+        },
+        "timestamp": 0
+    },
+    "name": "MyGroupP",
+    "objects": [
+        {
+            "id": "005056A4-5126-0ed3-0000-034359738947",
+            "name": "Gateway",
+            "type": "Host"
+        },
+        {
+            "id": "cb7116e8-66a6-480b-8f9b-295191a0940a",
+            "name": "any-ipv4",
+            "type": "Network"
+        }
+    ],
+    "overridable": false,
+    "type": "NetworkGroup"
+}
+INFO:root:Finished execution.

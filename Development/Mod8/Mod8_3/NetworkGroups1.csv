@@ -1,0 +1,3 @@
+Name,Type,Literals,Objects
+MyGroup1,NetworkGroup,"10.2.3.4,10.3.4.0/24,10.3.5.7,10.4.6.0/24",Gateway
+MyGroup2,NetworkGroup,"172.20.1.3,172.20.30.0/24","Gateway,any-ipv4"

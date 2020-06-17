@@ -1,0 +1,135 @@
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+INFO:root:Posting the network object.
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+INFO:root:Posting the network object.
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+INFO:root:Posting the network object.
+INFO:root:Status code is: 400
+ERROR:root:Error in connection: 400 Client Error: Bad Request for url: https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+INFO:root:Posting the network object.
+INFO:root:Status code is: 422
+ERROR:root:Error in connection: 422 Client Error: Unprocessable Entity for url: https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks
+INFO:root:Finished execution.
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+INFO:root:Posting the network object.
+INFO:root:Status code is: 422
+ERROR:root:Error in connection: 422 Client Error: Unprocessable Entity for url: https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks
+INFO:root:Finished execution.
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+INFO:root:Posting the network object.
+INFO:root:Status code is: 422
+ERROR:root:Error in connection: 422 Client Error: Unprocessable Entity for url: https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks
+INFO:root:Finished execution.
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+INFO:root:Posting the network object.
+INFO:root:Status code is: 422
+ERROR:root:Error in connection: 422 Client Error: Unprocessable Entity for url: https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks
+INFO:root:Finished execution.
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+INFO:root:Posting the network object.
+INFO:root:Status code is: 422
+ERROR:root:Error in connection: 422 Client Error: Unprocessable Entity for url: https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks
+INFO:root:Finished execution.
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+INFO:root:Posting the network object.
+INFO:root:Status code is: 201
+INFO:root:Post was successful...
+INFO:root:Finished execution.
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+INFO:root:Posting the network object.
+INFO:root:Status code is: 201
+INFO:root:Post was successful...
+INFO:root:Finished execution.
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+INFO:root:Posting the network object.
+INFO:root:Status code is: 201
+INFO:root:Post was successful...
+INFO:root:Finished execution.
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+INFO:root:Posting the network object.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_platform/v1/auth/generatetoken HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks HTTP/1.1" 201 None
+INFO:root:Status code is: 201
+INFO:root:Post was successful...
+DEBUG:root:{
+    "id": "005056A4-5126-0ed3-0000-055834574964",
+    "links": {
+        "parent": "https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+        "self": "https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/005056A4-5126-0ed3-0000-055834574964"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global"
+        },
+        "ipType": "V_4",
+        "lastUser": {
+            "name": "api"
+        },
+        "parentType": "NetworkAddress",
+        "timestamp": 0
+    },
+    "name": "TestNetwork7",
+    "overridable": false,
+    "type": "Network",
+    "value": "10.1.2.0/24"
+}
+INFO:root:Finished execution.
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+INFO:root:Posting the network object.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_platform/v1/auth/generatetoken HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks HTTP/1.1" 400 None
+INFO:root:Status code is: 400
+ERROR:root:Error in connection: 400 Client Error: Bad Request for url: https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks
+INFO:root:Finished execution.
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+INFO:root:Posting the network object.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_platform/v1/auth/generatetoken HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.81.127.36:443
+DEBUG:urllib3.connectionpool:https://10.81.127.36:443 "POST /api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks HTTP/1.1" 201 None
+INFO:root:Status code is: 201
+INFO:root:Post was successful...
+DEBUG:root:{
+    "id": "005056A4-5126-0ed3-0000-055834576152",
+    "links": {
+        "parent": "https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+        "self": "https://10.81.127.36/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/005056A4-5126-0ed3-0000-055834576152"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global"
+        },
+        "ipType": "V_4",
+        "lastUser": {
+            "name": "api"
+        },
+        "parentType": "NetworkAddress",
+        "timestamp": 0
+    },
+    "name": "TestNetwork8",
+    "overridable": false,
+    "type": "Network",
+    "value": "10.1.2.0/24"
+}
+INFO:root:Finished execution.

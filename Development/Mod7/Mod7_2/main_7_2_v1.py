@@ -1,0 +1,13 @@
+from get_7_2_v1 import get_names_and_ids
+
+fmc_info = {
+    'server': 'https://10.81.127.36',
+    'username': 'api',
+    'password': 'superpass'
+}
+
+endpoint = 'policy/accesspolicies'
+print (get_names_and_ids(fmc_info, endpoint))
+
+endpoint = 'policy/accesspolicies/005056A4-5126-0ed3-0000-042949673459/accessrules'
+print (get_names_and_ids(fmc_info, endpoint))

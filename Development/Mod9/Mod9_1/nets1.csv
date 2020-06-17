@@ -1,0 +1,7 @@
+﻿Name,Type,Value
+TestNet22,Network,10.2.3.0/24
+TestNet23,Network,10.3.4.0/24
+TestRange22,Range,10.2.3.4-10.2.3.10
+TestRange23,Range,10.3.4.5-10.3.4.10
+TestHost22,Host,10.2.3.4
+TestHost23,Host,10.2.3.5

@@ -1,0 +1,6 @@
+INFO:root:Starting the application.
+INFO:root:Retrieving the FMC info.
+INFO:root:Retrieving and printing the access policies.
+INFO:root:Launching GET to https://10.81.127.36/api/fmc_platform/v1/auth/generatetoken
+INFO:root:GET successful.
+INFO:root:Finished execution.

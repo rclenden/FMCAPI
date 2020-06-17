@@ -1,0 +1,2 @@
+AcPolicy,Name,Description,Enabled,Type,Action,SourceZones,DestinationZones,SourceNetworks,DestinationNetworksSourcePorts,DestinationPorts,IpsPolicy,variableSet,filePolicy,logBegin,logEnd,sendEventsToFMC,logFiles,vlanTags,applications
+ChildPolicy,Rule1,,True,accessrule,,,10.2.3.4,10.3.4.0/24,,,,,,,,,,,,,,
